@@ -1,2 +1,16 @@
 # ESXi_ransomware_scanner
-ESXi EZ - A custom scanner that takes list of IPs either in JSON, CSV or individually  and checks for infection CVE-2021-21974
+A program that scans IP addresses for signs of ESXi compromise by grabbing the ransom note from an html page and comparing the strings.
+
+## Requirements
+- python 3.x
+- requests
+- BeautifulSoup
+- tqdm
+- colorama
+
+## Installation
+Use the package manager pip to install the required packages.
+    pip install requests
+    pip install bs4
+    pip install tqdm
+    pip install colorama
